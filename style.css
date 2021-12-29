@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+}
+.section-1{
+    background-color: #FFC7C7;
+    display: flex;
+    border: 1px red solid;
+    flex-direction: column;
+    height: 300px;
+
+}
+.header{
+    display: flex;
+    border: 1px red solid;
+    justify-content: space-between;
+}
+.section-1 .cards{
+    border: 1px red solid;
+    display: flex;
+}
+
+
+.section-2{
+    display: flex;
+    border: 1px red solid;
+    text-align: center;
+    flex-direction: column;
+    height: 300px;
+}
+.section-2 .cards{
+    display: flex;
+}
+.cards .image{
+    border: 1px red solid;
+    width: 200px;
+    height: 200px;
+}
+
+.section-3{
+    display: flex;
+    height: 300px;
+    border: 1px red solid;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.section-4{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.section-4 .form{
+    border: 1px red solid;
+    display: flex;
+    height: 150px;
+    width: 600px;
+
+}
+
+
+.footer{
+    display: flex;
+    text-align: center;
+    height: 75px;
+    border: 1px red solid;
+    justify-content: center;
+    align-items: center;
+}
