@@ -2,22 +2,57 @@ body{
     margin: 0px;
 }
 .section-1{
-    background-color: #FFC7C7;
     display: flex;
-    border: 1px red solid;
     flex-direction: column;
     height: 300px;
+    align-items: center;
 
 }
+.header,.section-1 .cards{
+    width:1000px ;
+}
 .header{
+    height: 80px;
     display: flex;
-    border: 1px red solid;
+    row-gap: 10px;
     justify-content: space-between;
 }
 .section-1 .cards{
-    border: 1px red solid;
     display: flex;
 }
+ul{
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+.h-logo, .header-links{
+    display: flex;
+    align-items: center;
+}
+.section-1 .cards{
+    display: flex;
+    align-items: center;
+}
+.cards .placeholder{
+    width: 700px;
+    height: 200px;
+    border: 1px solid red;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
 
 
 .section-2{
@@ -25,16 +60,40 @@ body{
     border: 1px red solid;
     text-align: center;
     flex-direction: column;
-    height: 300px;
+    height: 400px;
 }
+.section-2 .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .section-2 .cards{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
-.cards .image{
-    border: 1px red solid;
-    width: 200px;
-    height: 200px;
+
+.section-2 .cards .info{
+    max-width: 200px;
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+.section-2 .cards .image{
+    height: 190px;
+    width: 190px;
+    border: 1px blue solid;
+    gap: 2px;
+
+}
+
+
+
+
 
 .section-3{
     display: flex;
@@ -54,10 +113,12 @@ body{
 }
 .section-4 .form{
     border: 1px red solid;
+    border-radius: 10px;
     display: flex;
     height: 150px;
     width: 600px;
-
+    justify-content: center;
+    align-items: center;
 }
 
 
